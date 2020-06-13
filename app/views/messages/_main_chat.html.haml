@@ -8,9 +8,9 @@
         - @group.users.each do |user|
           %li.member
             = user.name
-
     .right-header
       .right-header__button
+      = link_to edit_group_path(@group) do
         Edit
   .messages
     = render @messages
