@@ -68,19 +68,19 @@
     background-color: #DDDDDD;
     box-sizing: border-box;
     height: 90px;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 40px;
     &__message {
       border: none;
-      float: left;
       height: 50px;
-      width: calc(100% - 160px);
+      width: calc(100% - 130px);
+      float: left;
       padding-left: 10px;
     }
     &__mask {
-      background-color: $white;
       float: left;
-      height: 50px;
-      padding-right: 10px;
+      position: absolute;
+      bottom: 20px;
+      right: 175px;
       &__image {
         font-size: 20px;
         line-height: 50px;
